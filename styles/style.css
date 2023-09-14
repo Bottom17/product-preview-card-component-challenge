@@ -1,0 +1,44 @@
+:root {
+  /* Colors */
+  --clr-dark-cyan: hsl(158, 36%, 37%);
+  --clr-very-dark-cyan: rgb(30, 68, 53);
+  --clr-cream: hsl(30, 38%, 92%);
+  --clr-very-dark-blue: hsl(212, 21%, 14%);
+  --clr-dark-gray-blue: hsl(228, 12%, 48%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: "Fraunces", serif; */
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--clr-cream);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
